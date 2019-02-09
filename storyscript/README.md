@@ -173,6 +173,7 @@ str split by: '.'  # returns an array by splitting the string with the delimiter
 str uppercase  # returns a string where all characters are upper cased
 str lowercase  # returns a string where all characters are lower cased
 str capitalize  # returns a string where the first letter of each word is capitalized (eg: 'jane smith' becomes 'Jane Smith')
+str in list:['foo', 'bar']  # returns true or false if the string is found in the list
 
 # Numbers
 num = 10
