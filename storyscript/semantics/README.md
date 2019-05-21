@@ -199,7 +199,7 @@ A story may [execute in many ways](/faq/#how-are-storyscripts-started).
 ```coffeescript
 translated = service action translate:my_string to:'spanish'
 parts = translated split by:' '
-service_b action name:parts[0]
+first_word = name:parts[0]
 ```
 
 The Story above is would perform the following operations:
